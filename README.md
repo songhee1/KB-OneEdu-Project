@@ -9,9 +9,9 @@ KB It's your life 4기 1조 미니 프로젝트입니다.
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/songhee1"><img src="https://github.com/songhee1/algorithm-study/assets/96781855/6083c24c-c667-46b6-9a7e-5a993d2c8ed5" width="300px;" alt="최송희"/><br /><sub><b>BE 팀장 : 최송희 </b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="https://github.com/songhee1/algorithm-study/assets/96781855/8796786b-64bc-4862-a10d-2c370035ca67" width="300px;" alt="김가빈"/><br /><sub><b>BE 팀원 : 김가빈 </b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="https://github.com/songhee1/algorithm-study/assets/96781855/e60d9e79-0b3b-47fd-8e5a-9ba4e2032799" width="300px;" alt="맹영욱"/><br /><sub><b>BE 팀원 : 맹영욱 </b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/songhee1"><img src="https://github.com/songhee1/algorithm-study/assets/96781855/6083c24c-c667-46b6-9a7e-5a993d2c8ed5" width="300px;" alt="최송희"/><br /><sub><h3>BE 팀장 : 최송희 </h3></sub></a><br /></td>
+      <td align="center"><a href=""><img src="https://github.com/songhee1/algorithm-study/assets/96781855/8796786b-64bc-4862-a10d-2c370035ca67" width="300px;" alt="김가빈"/><br /><sub><h3>BE 팀원 : 김가빈 </h3></sub></a><br /></td>
+      <td align="center"><a href=""><img src="https://github.com/songhee1/algorithm-study/assets/96781855/e60d9e79-0b3b-47fd-8e5a-9ba4e2032799" width="300px;" alt="맹영욱"/><br /><sub><h3>BE 팀원 : 맹영욱 </h3></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
