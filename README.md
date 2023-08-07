@@ -1,14 +1,23 @@
+
+
 # KB-OneEdu-Project
 KB It's your life 4기 1조 미니 프로젝트입니다.
 
 
 ## 0. 구성원
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2e34151c-c413-48c1-85d6-1714dd8393df/Untitled.png)
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/songhee1"><img src="https://github.com/songhee1/algorithm-study/assets/96781855/6083c24c-c667-46b6-9a7e-5a993d2c8ed5" width="300px;" alt="최송희"/><br /><sub><b>BE 팀장 : 최송희 </b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="https://github.com/songhee1/algorithm-study/assets/96781855/8796786b-64bc-4862-a10d-2c370035ca67" width="300px;" alt="김가빈"/><br /><sub><b>BE 팀원 : 김가빈 </b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="https://github.com/songhee1/algorithm-study/assets/96781855/e60d9e79-0b3b-47fd-8e5a-9ba4e2032799" width="300px;" alt="맹영욱"/><br /><sub><b>BE 팀원 : 맹영욱 </b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
 
-| 팀장 | 팀원 | 팀원 |
-| --- | --- | --- |
-| 최송희 | 김가빈 | 맹영욱 |
+<br>
+<br>
 
 ## 1. 프로젝트 주제
 
@@ -24,15 +33,13 @@ Java 8 을 이용해 온라인 교육 플랫폼을 주제로 선정, 이클립�
     
 - 변경 전
     
-    ![유스케이스 다이어그램.drawio.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f15b3236-27d8-456c-8ae5-a3b97713cdcf/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4_%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.drawio.png)
+  ![유스케이스 다이어그램 drawio (1)](https://github.com/songhee1/algorithm-study/assets/96781855/b7dfc155-5a8e-422d-b480-2b9e12f19c4d)
     
     - 액터 기준 유스케이스 다이어그램 작성  →  기능을 직관적으로 확인하기 어렵다는 점 + 클래스 위주 확인이 어렵다는 점 ⇒ 새롭게 재작성
     
 - 변경 후
     
-    ![유스케이스다이어그램.drawio.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a63460f-d47c-4e62-a1cc-e5572631fcba/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.drawio.png)
-    
-    ![유스케이스다이어그램.drawio.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a63460f-d47c-4e62-a1cc-e5572631fcba/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.drawio.png)
+ ![유스케이스다이어그램 drawio (1)](https://github.com/songhee1/algorithm-study/assets/96781855/fcf1fdfb-96c5-4203-91bc-144234d05a3f)
     
     클래스 기능별로 다이어그램 재작성  + 기존 CRUD 기능과 추가 기능을 분리
     
@@ -41,18 +48,20 @@ Java 8 을 이용해 온라인 교육 플랫폼을 주제로 선정, 이클립�
 
 - 변경 전
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c21c2ba3-885c-45f2-9cd5-a1a2f4ba501c/Untitled.png)
-    
+    ![Untitled (5)](https://github.com/songhee1/algorithm-study/assets/96781855/dd219eb5-1cdf-47d1-8a86-cd2c437f5347)
+   
 - 변경 후
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d86baf2e-c405-44d4-b3d3-0b71aaea0ab8/Untitled.png)
+    ![Untitled (6)](https://github.com/songhee1/algorithm-study/assets/96781855/2408b23e-ed0a-4b57-a0f9-8caa6cce029a)
     
 - 초기 DB 모델링 때는 실제 데이터베이스에서 허용되는 컬럼 명을  고려하지 못함. like 연산자나 check를 인식 X
 - 유니크한 컬럼을 제외한 나머지들은 직관성을 위해 컬럼명을 수정하였고 데이터 타입의 사이즈를 알맞게 지정해주었다.
 
 ## 5. Class Diagram
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd76828d-e235-482a-8f60-a46479c460fa/Untitled.png)
+<p align="center">
+<img src="https://github.com/songhee1/algorithm-study/assets/96781855/88efffb3-a1f7-4ed0-90a3-b80653b57e69" width=auto height="600"/>
+</p>
 
 학생과 선생님의 테이블은 구분하였으나 상속 관계를 통해서 재사용성을 높이기 위해 위와 같이 클래스 관계를 설정했다. 
 
@@ -64,7 +73,9 @@ https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2F
     
     **1) 강의자 창**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72f32248-b7cf-4953-912c-32ba45ea7716/Untitled.png)
+    <p align="center">
+	<img src="https://github.com/songhee1/algorithm-study/assets/96781855/3cd884cd-8c51-43ea-807a-23d574881e32" width=auto height="300"/>
+    </p>
     
     강의자가 본인의 강의 ID와 강의명, 과목, 가격을 작성해 등록 및 변경하는 화면
     
@@ -72,7 +83,9 @@ https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2F
     
     **2) 학생창 - 수강중인 강의 목록**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/acc1b32e-7975-4af8-ba2a-96a896116f16/Untitled.png)
+    <p align="center">
+	<img src="https://github.com/songhee1/algorithm-study/assets/96781855/febc41b7-a083-4295-a061-2f2777fd419e" width=auto height="300"/>
+    </p>
     
     수강생이 수강 중인 강의 목록, 강의수강, 철회하는 화면
     
@@ -119,7 +132,9 @@ https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2F
         - ServcerInfo(interface)
 - 시퀀스 쿼리문
     
-    ![2 (2).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1fbcb7c-930f-415f-a90f-97783173433a/2_(2).png)
+     <p align="center">
+	<img src="[https://github.com/songhee1/algorithm-study/assets/96781855/febc41b7-a083-4295-a061-2f2777fd419e](https://github.com/songhee1/algorithm-study/assets/96781855/aed769ce-6de8-4108-8cdc-1584c8a4d071)" width=auto height="300"/>
+    </p>
     
 
 ## 8. Business Logic Template - Interface
@@ -216,10 +231,6 @@ public interface EduDAO {
     DESC student ON DELETE CASCADE;
     ```
     
-    **결과**
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0227773-1fcc-4ef0-8675-e15ae5249252/Untitled.png)
-    
 
 - `lecture` 테이블 생성
     
@@ -239,10 +250,7 @@ public interface EduDAO {
     ALTER TABLE lecture ADD CONSTRAINT lecture_lecture_id_pk PRIMARY KEY(lecture_id);
     DESC lecture ON DELETE CASCADE;
     ```
-    
-    **결과**
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2394c7f1-a4e2-41e5-9040-944f63c31225/Untitled.png)
+  
     
 
 ### 1) 분석함수 1개 이상 적용
@@ -313,9 +321,6 @@ vo 클래스 내에서 생성자 오버로딩을 적용.
 ## 11. 미니 프로젝트 제작 후기
 
 - 김가빈
-    - 아쉬웠던 점
-        
-        :  ~~개인적으로 프로젝트 진행 시 다이어그램이나 모델링을 체계적으로 제작해본 경험이 적어서 능숙하게 작성하지 못한 것이 아쉽다.~~ 
         
     - 추후 디벨롭 하고 싶은 내용
         
