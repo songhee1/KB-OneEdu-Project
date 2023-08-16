@@ -379,8 +379,8 @@ vo 클래스 내에서 생성자 오버로딩을 적용.
 
 ### 12. 프로젝트 당시 고민했던 부분
 **1. to_Char이용해서 세자리 수 , 를 넣어서 표현할 때 Lecture DAO의  필드 price의 데이터 타입**
-    - to_char로 표현한 값을 String으로 읽어왔기에 price 필드의 데이터 타입을 String으로 변경했다. 그러나 실제 테이블에서 price의 데이터 타입은 NUMBER로 지정했기에 vo에서도 int로 설정해야 한다. 이를 어떻게 처리할지 고민 중이다.
+    <br>- to_char로 표현한 값을 String으로 읽어왔기에 price 필드의 데이터 타입을 String으로 변경했다. 그러나 실제 테이블에서 price의 데이터 타입은 NUMBER로 지정했기에 vo에서도 int로 설정해야 한다. 이를 어떻게 처리할지 고민 중이다.
 
 **2. Eclipse와 Oracle DB에서 데이터 타입의 차이** 
-    - Number vs Integer= int
-        : 이클립스의 eXERD를 이용하여 DB 모델링을 작성하면 정수의 데이터 타입이 integer로 잡힌다. 그러나 실제 우리가 사용할 오라클 DB에서는 integer를 잘 사용하지 않으며, 사용 시 자체적으로 NUMBER 타입으로 변환한다. 따라서 회의 후, DB 모델링 작성 시 정수형 데이터 타입은 NUMBER로 통일했다.
+   <br>- Number vs Integer= int
+        <br>: 이클립스의 eXERD를 이용하여 DB 모델링을 작성하면 정수의 데이터 타입이 integer로 잡힌다. 그러나 실제 우리가 사용할 오라클 DB에서는 integer를 잘 사용하지 않으며, 사용 시 자체적으로 NUMBER 타입으로 변환한다. 따라서 회의 후, DB 모델링 작성 시 정수형 데이터 타입은 NUMBER로 통일했다.
